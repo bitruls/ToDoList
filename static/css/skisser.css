@@ -1,0 +1,78 @@
+/* Generelle stiler */
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #f2f2f2; /* Lys bakgrunnsfarge */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Legg til en svak skygge */
+    max-width: 600px;
+    width: 100%;
+}
+
+/* Tabellstiler */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #4CAF50; /* Grønn farge på toppteksten */
+    color: white;
+}
+
+tr:hover {
+    background-color: #f1f1f1; /* Lys farge når man hovrer over en rad */
+}
+
+/* Formstiler */
+form {
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: calc(100% - 22px); /* Justerer bredden for padding */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Lenke stiler */
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
